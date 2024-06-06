@@ -1,0 +1,46 @@
+/* mix-blend-mode: color-burn; */
+
+:root {
+  --btn-color-black: #1F1F1F;
+  --btn-color-yellow: #FBCE51;
+  --btn-color-gray: #D6D6D6;
+  --btn-color-blue: #3057A2;
+
+  --line-color-red: #F54932;
+  --text-color-gray: #595653;
+  --text-color-dark: #313131;
+
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+
+}
+
+.header-logo__link {
+  display: block;
+  padding-left: 40px;
+  position: relative;
+}
+
+.header-logo__link::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 27px;
+  background-image: url('./../resourses/icons/logo-horse.svg');
+}
+
+/* section hero */
+
